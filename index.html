@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <title>Etch a Sketch</title>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="rose-wrapper">
+        <div class="leftrose">
+          <img
+            src="https://www.dead.net/sites/g/files/g2000007851/files/leftroses.png"
+          />
+        </div>
+        <div class="rightrose">
+          <img
+            src="https://www.dead.net/sites/g/files/g2000007851/files/rightroses.png"
+          />
+        </div>
+      </div>
+      <div class="header-wrapper">
+        <div class="logo">Ethch-a-Sketch<div>
+      <div class="button-wrapper">
+        <button class="reset-button">RESET</button>
+        <div class="width-wrapper">
+          <input id="grid-width" name="num" type="number" tabindex="-1" class="grid-input" placeholder=16 >
+          <button class="update-width">GRID WIDTH</button>
+        </div>
+        
+      </div>
+    </div>
+      <div class="grid-wrapper" id="grid-wrapper"></div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  grid-gap: 0px;
+  grid-auto-rows: minmax(auto, auto);
+  height: 480px;
+  width: 480px;
+  margin: 20px auto;
+  background-color: white;
+  border: solid 3px #fd2b58;
+}
+
+.grid-item:hover {
+  background-color: yellow;
+}
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "modesto-text", serif;
+}
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "modesto-text", serif;
+}
+.logo {
+  font-family: "Fredericka the Great", cursive;
+  color: #e7ef2d;
+  font-size: 80px;
+  text-align: center;
+}
+html {
+  background: #272727;
+  border: solid 3px #fd2b58;
+}
+.leftrose {
+  width: auto;
+  position: absolute;
+  clip: rect(0px, 420px, 200px, 30px);
+  left: -42px;
+  display: block;
+  top: 14px;
+  z-index: -1;
+}
+.rightrose {
+  position: absolute;
+  clip: rect(0px, 380px, 200px, 0px);
+  right: -40px;
+  display: block;
+  top: 14px;
+  z-index: -1;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+button {
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: "modesto-text", serif;
+  background: #e7ef2d;
+  border: none;
+  outline: none !important;
+  align-items: flex-start;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1px 6px;
+  margin: 8px;
+}
+.grid-input {
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: "modesto-text", serif;
+  border: none;
+  outline: none !important;
+  align-items: flex-start;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 1px 6px;
+  margin: 8px -8px 8px 0px;
+}
+.width-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+}
